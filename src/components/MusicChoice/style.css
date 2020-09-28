@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mc-container{
+    display: grid;
+    grid-template-rows: .73fr .08fr .20fr;
+    grid-template-columns: .27fr .13fr .6fr;
+    width: 1060px;
+    margin: 0 auto;
+    font-family: 'Lalezar', cursive;
+}
+
+.message-box{
+    background-color: black;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 73vh;
+}
+
+.message-header{
+    color: rgb(214, 252, 87);
+    font-size: 48px;
+    margin-top: 1.5em;
+    margin-left: .5em;
+    letter-spacing: 3px;
+}
+
+.message-box > iframe{
+    margin-top: 2em;
+    margin-left: 3.5em;
+}
+
+.message-blurb{
+    color: rgb(141, 191, 250);
+    font-size: 22px;
+    margin-left: 1.2em;
+    width: 88%;
+}
+
+.big-picture{
+    background-image: url("./img/nilsson.jpg");
+    background-size: cover;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    height: 73vh;
+}
+
+.playlist-name-row{
+    background-color: rgb(214, 252, 87);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.back-home{
+    text-decoration: none;
+    color: rgb(141, 191, 250);
+}
+
+.they-hate-it{
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: .55em;
+}
+
+.logo2-box{   
+    background-color: black;
+    color: rgb(141, 191, 250);
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 20vh;
+    position: relative;
+}
+
+.logo2{
+    font-size: 64px;
+    font-family: 'Homemade Apple', cursive;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    top: 0;
+    left: 32%;
+}
+
+.logo-sub{
+    font-size: 16px;
+    font-family: 'Caveat', cursive;
+    position: absolute;
+    top: 64%;
+    left: 33%;
+}
+
+.track-info-box{   
+    background-color: black;
+    color: rgb(141, 191, 250);
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    height: 20vh;
+    font-size: 22px;
+    position: relative;
+}
+
+.box-of-ps{
+    color: rgb(141, 191, 250);
+    margin-top: .65em;
+    width: 15em;
+}
+
+.back-home{
+    text-decoration: none;
+    color: rgb(141, 191, 250);
+    position: absolute;
+    top: 59%;
+    left: 70%;
+    transition: all 700ms;
+}
