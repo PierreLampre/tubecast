@@ -435,4 +435,8 @@
         left: 90%;
         width: 90%;
     }
+
+    .info{
+        height: 225px;
+    }
 }  

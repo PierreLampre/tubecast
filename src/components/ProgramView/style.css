@@ -9,3 +9,12 @@
     width: 50vw;
     height: 70vh;
 }
+
+@media screen and (max-width: 500px) {
+
+    .yt-iframe-container > iframe{
+        width: 80vw;
+        height: 50vh;
+    }
+
+}
