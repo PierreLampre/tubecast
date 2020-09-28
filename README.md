@@ -8,7 +8,7 @@ This application gives a nod to the old school Comcast channel/on demand screen.
 
 All content is linked from YouTube.
 
-![screenshot1](https://ibb.co/bbtM98X)
-![screenshot2](https://ibb.co/jMy8B8H)
+![screenshot1](https://i.ibb.co/J3ZwJMH/tubecast-ss1.png)
+![screenshot2](https://i.ibb.co/cF6yMyx/tubecast-ss2.png)
 
 This application is deployed at: https://tubecast.netlify.app/
