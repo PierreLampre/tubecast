@@ -105,7 +105,7 @@
 }
 
 .commercial{
-    background: #000;
+    background: linear-gradient(rgb(6, 14, 72), rgb(0, 106, 220));
     grid-row-start: 1;
     grid-row-end: 3;
     grid-column-start: 2;
@@ -332,7 +332,7 @@
     }
 
     .info{
-        height: 175.6px;
+        height: 219.19px;
     }
 
     .commercial{
@@ -438,5 +438,21 @@
 
     .info{
         height: 225px;
+        grid-template-rows: 53% 47%;
+        padding: 0;
+    }
+
+    .program-station, .program-blurb{
+        padding-left: 25px;
+    }
+
+    .program-blurb{
+        border-top: 2px solid rgb(139, 139, 236);
+    }
+
+    .program-fixed-width-box{
+        height: 100px;
+        width: 400px;
+        padding-top: 12px;
     }
 }  
