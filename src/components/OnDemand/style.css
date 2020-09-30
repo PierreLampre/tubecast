@@ -446,13 +446,17 @@
         padding-left: 25px;
     }
 
-    .program-blurb{
-        border-top: 2px solid rgb(139, 139, 236);
+    .program-station-content{
+        flex-direction: column;
     }
 
     .program-fixed-width-box{
         height: 100px;
-        width: 400px;
+        width: 350px;
         padding-top: 12px;
+    }
+
+    .channel-name {
+        margin: 10px 0 20px 0;
     }
 }  
