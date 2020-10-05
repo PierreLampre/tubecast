@@ -459,4 +459,8 @@
     .channel-name {
         margin: 10px 0 20px 0;
     }
+
+    .footer > a > img {
+        width: 350px;
+    }
 }  
