@@ -57,6 +57,8 @@ export default class ChannelsBox extends Component {
     let ampm = timeString.substr(4, 5);
     let theDecider = parseInt(timeString.substr(2, 3));
 
+    //Should you need to spoof the clock...
+
     // hour=1
     // nextHour=2
     // ampm="pm"
