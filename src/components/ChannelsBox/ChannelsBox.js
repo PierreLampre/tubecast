@@ -57,19 +57,23 @@ export default class ChannelsBox extends Component {
     let ampm = timeString.substr(4, 5);
     let theDecider = parseInt(timeString.substr(2, 3));
 
-    //Should you need to spoof the clock...
-
-    // hour=1
-    // nextHour=2
-    // ampm="pm"
-    // theDecider=30
-
     if (timeString.length > 6) {
       hour = parseInt(timeString.substr(0, 2));
       nextHour = hour === 12 ? hour - 11 : hour + 1;
       ampm = timeString.substr(5, 6);
       theDecider = parseInt(timeString.substr(3, 4));
     }
+
+    
+    //Should you need to spoof the clock...
+
+    // hour=11
+    // nextHour=12
+    // ampm="am"
+    // theDecider=0
+
+
+    // console.log("Hour: " + hour + "  |  ampm: " + ampm + "  | theDecider: " + theDecider);
 
     let dramaSchedule = this.state.programs.channels.drama;
 
@@ -78,8 +82,18 @@ export default class ChannelsBox extends Component {
     );
 
     let dramaSecondBlock = dramaSchedule.filter(
-      (program) => program.timeSlot === nextHour + ampm
+      (program2) => program2.timeSlot === nextHour + ampm
     );
+    
+    if((hour === 11) && (ampm === "am")) {
+      dramaSecondBlock = dramaSchedule.filter(
+        (program2) => program2.timeSlot === nextHour + "pm"
+      );
+    } else if ((hour === 11) && (ampm === "pm")) {
+      dramaSecondBlock = dramaSchedule.filter(
+        (program2) => program2.timeSlot === nextHour + "am"
+      );
+    }
 
     let dramaBothBlocks = dramaFirstBlock.concat(dramaSecondBlock);
 
@@ -92,6 +106,17 @@ export default class ChannelsBox extends Component {
     let mst3kSecondBlock = mst3kSchedule.filter(
       (program) => program.timeSlot === nextHour + ampm
     );
+
+    if((hour === 11) && (ampm === "am")) {
+      mst3kSecondBlock = mst3kSchedule.filter(
+        (program2) => program2.timeSlot === nextHour + "pm"
+      );
+    } else if ((hour === 11) && (ampm === "pm")) {
+      mst3kSecondBlock = mst3kSchedule.filter(
+        (program2) => program2.timeSlot === nextHour + "am"
+      );
+    }
+
     let mst3kBothBlocks = mst3kFirstBlock.concat(mst3kSecondBlock);
 
     let mysterySchedule = this.state.programs.channels.mystery;
@@ -102,6 +127,17 @@ export default class ChannelsBox extends Component {
     let mysterySecondBlock = mysterySchedule.filter(
       (program) => program.timeSlot === nextHour + ampm
     );
+
+    if((hour === 11) && (ampm === "am")) {
+      mysterySecondBlock = mysterySchedule.filter(
+        (program2) => program2.timeSlot === nextHour + "pm"
+      );
+    } else if ((hour === 11) && (ampm === "pm")) {
+      mysterySecondBlock = mysterySchedule.filter(
+        (program2) => program2.timeSlot === nextHour + "am"
+      );
+    }
+
     let mysteryBothBlocks = mysteryFirstBlock.concat(mysterySecondBlock);
 
     let foodieSchedule = this.state.programs.channels.foodie;
@@ -116,6 +152,20 @@ export default class ChannelsBox extends Component {
         program.timeSlot === nextHour + ampm ||
         program.timeSlot === nextHour + ":30" + ampm
     );
+
+    if((hour === 11) && (ampm === "am")) {
+      foodieSecondBlock = foodieSchedule.filter(
+        (program) =>
+          program.timeSlot === nextHour + "pm" ||
+          program.timeSlot === nextHour + ":30" + "pm"
+      );
+    } else if ((hour === 11) && (ampm === "pm")) {
+      foodieSecondBlock = foodieSchedule.filter(
+        (program) =>
+          program.timeSlot === nextHour + "am" ||
+          program.timeSlot === nextHour + ":30" + "am"
+      );
+      }
     let foodieBothBlocks = foodieFirstBlock.concat(foodieSecondBlock);
 
     if (theDecider > 29 && foodieBothBlocks[0].length) {
