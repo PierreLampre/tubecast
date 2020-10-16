@@ -165,7 +165,7 @@ export default class ChannelsBox extends Component {
           program.timeSlot === nextHour + "am" ||
           program.timeSlot === nextHour + ":30" + "am"
       );
-      }
+    }
     let foodieBothBlocks = foodieFirstBlock.concat(foodieSecondBlock);
 
     if (theDecider > 29 && foodieBothBlocks[0].length) {
