@@ -49,6 +49,20 @@ export default class TimeBar extends Component {
 
     ampm = ampm.substr(0, ampm.length - 1);
 
+    //Should you want to spoof the clock.abs
+
+    // hour=11;
+    // ampm="p";
+    // theDecider="30";
+
+    let ampm_2 = ampm;
+
+    if((hour === 11) && (ampm === "a")) {
+      ampm_2 = "p"
+    } else if ((hour === 11) && (ampm === "p")) {
+      ampm_2 = "a"
+    }
+
     return (
       <section className="time-block">
         <div className="today">Today</div>
@@ -72,7 +86,7 @@ export default class TimeBar extends Component {
           {(hour === 12) ? ((theDecider > 29) ? (hour - 11) : hour) : ((theDecider > 29) ? hour + 1: hour)}
           {/* Changes minute block of time display */}
           {(theDecider > 29) ? ":00" : ":30"}
-          {ampm}
+          {ampm_2}
         </div>
         <div className="divider">|</div>
         <div className="time">
@@ -80,7 +94,7 @@ export default class TimeBar extends Component {
           {(hour === 12) ? (hour - 11) : hour + 1}
           {/* Changes minute block of time display */}
           {(theDecider > 29) ? ":30" : ":00"}
-          {ampm}
+          {ampm_2}
         </div>
         <div className="divider">|</div>
         <img src={play} className="play" alt="A forward button that is purely for decoration." />
