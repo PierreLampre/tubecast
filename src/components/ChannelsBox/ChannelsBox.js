@@ -157,13 +157,13 @@ export default class ChannelsBox extends Component {
       foodieSecondBlock = foodieSchedule.filter(
         (program) =>
           program.timeSlot === nextHour + "pm" ||
-          program.timeSlot === nextHour + ":30" + "pm"
+          program.timeSlot === nextHour + ":30pm"
       );
     } else if ((hour === 11) && (ampm === "pm")) {
       foodieSecondBlock = foodieSchedule.filter(
         (program) =>
           program.timeSlot === nextHour + "am" ||
-          program.timeSlot === nextHour + ":30" + "am"
+          program.timeSlot === nextHour + ":30am"
       );
     }
     let foodieBothBlocks = foodieFirstBlock.concat(foodieSecondBlock);
