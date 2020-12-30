@@ -490,7 +490,7 @@
                 "timeSlot": "6pm",
                 "name": "Throwdown with Bobby Flay",
                 "id": "yVp9QteuveQM",
-                "length": true
+                "length": false
             },
             {
                 "timeSlot": "7pm",
