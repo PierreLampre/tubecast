@@ -89,7 +89,7 @@
             {
                 "timeSlot": "6pm",
                 "name": "The Practice",
-                "id": "uIU7hsLZMXo"
+                "id": "ydZAQbBMjvI"
             },
             {
                 "timeSlot": "7pm",
@@ -216,7 +216,7 @@
             {
                 "timeSlot": "5pm",
                 "name": "Matlock",
-                "id": "0qjIifSy01A"
+                "id": "d14Mi3S121g"
             },
             {
                 "timeSlot": "6pm",
@@ -482,15 +482,15 @@
             },
             {
                 "timeSlot": "5pm",
-                "name": "Chopped Sweets",
-                "id": "1HP7fMghFa4",
+                "name": "Chopped",
+                "id": "YCBwtXhyDOg",
                 "length": false
             },
             {
                 "timeSlot": "6pm",
-                "name": "Worst Cooks In America",
-                "id": "sFFsugSn-DA",
-                "length": false
+                "name": "Throwdown with Bobby Flay",
+                "id": "yVp9QteuveQM",
+                "length": true
             },
             {
                 "timeSlot": "7pm",
