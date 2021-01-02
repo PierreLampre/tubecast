@@ -400,26 +400,26 @@
             },
             {
                 "timeSlot": "7am",
-                "name": "Chopped",
-                "id": "RX31hnhX-u8",
+                "name": "Julia Child",
+                "id": "_gsgIRRb_Nw",
                 "length": false
             },
             {
                 "timeSlot": "8am",
                 "name": "Throwdown with Bobby Flay",
-                "id": "MLX7dy5E8E4",
+                "id": "MIXKlcYnNOU",
                 "length": true
             },
             {
                 "timeSlot": "8:30am",
                 "name": "Throwdown with Bobby Flay",
-                "id": "DsgCQpJhJCU",
+                "id": "QJben7ZTHh8",
                 "length": true
             },
             {
                 "timeSlot": "9am",
-                "name": "Worst Cooks In America",
-                "id": "G7K5JkCOopU",
+                "name": "Kitchen Nightmares",
+                "id": "W5O7TRTpesM",
                 "length": false
             },
             {
@@ -430,15 +430,21 @@
             },
             {
                 "timeSlot": "11am",
-                "name": "Cake Wars",
-                "id": "JpidviPnpwA",
+                "name": "Emeril Live",
+                "id": "eylOhqj8xcQ",
                 "length": false
             },
             {
                 "timeSlot": "12pm",
-                "name": "Spring Baking Championship",
-                "id": "i5w9Z6LrLs4",
-                "length": false
+                "name": "Jamie Oliver",
+                "id": "msl_qVESwWc",
+                "length": true
+            },
+            {
+                "timeSlot": "12:30pm",
+                "name": "Jamie Oliver",
+                "id": "qRy8U-kKiak",
+                "length": true
             },
             {
                 "timeSlot": "1pm",
@@ -490,8 +496,8 @@
             },
             {
                 "timeSlot": "8pm",
-                "name": "Chopped Junior",
-                "id": "biE1fTVNIFw",
+                "name": "MasterChef Junior",
+                "id": "nOOVwxbv9v8",
                 "length": false
             },
             {
@@ -556,9 +562,15 @@
             },
             {
                 "timeSlot": "5am",
-                "name": "Iron Chef",
-                "id": "KTQux3wAphU",
-                "length": false
+                "name": "Alton Brown's Top 10",
+                "id": "bTaTxsIFWrs",
+                "length": true
+            },
+            {
+                "timeSlot": "5am",
+                "name": "Anthony Bourdain: A Cook's Tour",
+                "id": "M_z3et0_5WU",
+                "length": true
             }
         ]
     }
