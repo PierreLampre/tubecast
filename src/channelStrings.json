@@ -171,27 +171,17 @@
             {
                 "timeSlot": "10am",
                 "name": "Matlock",
-                "id": "mQUJx8dTbYI",
-                "startStyles": "",
-                "midStyles": "",
-                "endStyles": ""
-                
+                "id": "UTVOiP8MwX4"
             },
             {
                 "timeSlot": "11am",
                 "name": "Perry Mason",
-                "id": "_0ohjUt4S_8",
-                "startStyles": "",
-                "midStyles": "",
-                "endStyles": ""
+                "id": "_0ohjUt4S_8"
             },
             {
                 "timeSlot": "12pm",
-                "name": "AHP: A Matter of Murder",
-                "id": "5LgVTQa24Y8",
-                "startStyles": "",
-                "midStyles": "",
-                "endStyles": ""
+                "name": "AHP: House Guest",
+                "id": "jkVShDg6Zz0"
             },
             {
                 "timeSlot": "1pm",
@@ -216,7 +206,7 @@
             {
                 "timeSlot": "5pm",
                 "name": "Matlock",
-                "id": "d14Mi3S121g"
+                "id": "79CVjChyDhs"
             },
             {
                 "timeSlot": "6pm",
@@ -236,7 +226,7 @@
             {
                 "timeSlot": "9pm",
                 "name": "Diagnosis Murder",
-                "id": "CWCYiYs3rD8"
+                "id": "UDkvK1yQVAY"
             },
             {
                 "timeSlot": "10pm",
@@ -255,8 +245,8 @@
             },
             {
                 "timeSlot": "1am",
-                "name": "AHP: Power Of Attorney",
-                "id": "9lObME6NBZw"
+                "name": "AHP: One Of The Family",
+                "id": "wWW-ksIW9Wc"
             },
             {
                 "timeSlot": "2am",
