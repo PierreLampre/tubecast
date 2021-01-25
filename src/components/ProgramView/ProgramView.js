@@ -12,8 +12,7 @@ export default class ProgramView extends Component {
 
     render() {
 
-        let theRightLink = "https://www.youtube.com/embed/" + this.state.id + "?t=0s&controls=1&autoplay=1&loop=1&playlist=zGj0sGAsjUU"
-
+        let theRightLink = "https://www.youtube.com/embed/" + this.state.id + "?t=0s&controls=1&autoplay=1"
         return (
         <section className="pv-container">
 
